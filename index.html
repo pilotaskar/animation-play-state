@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation-play-state</title>
+</head>
+<body>
+
+    <style>
+        header h1{
+            border: 5px solid red;
+            width: 350px;
+            animation: 3s myanime;
+            position: relative;
+            animation-play-state: paused;
+        }
+
+        /* I paused my animation with animation-play-state */
+
+        @keyframes myanime {
+            from {left: -100px;}
+            to {left: 0px;}
+        }
+
+
+    </style>
+
+    <header>
+        <h1>Welcome to my website</h1>
+    </header>
+
+    <p> I paused my animation with animation-play-state </p>
+    
+</body>
+</html>
